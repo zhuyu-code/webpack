@@ -7,3 +7,7 @@
 ## 打包命令
 ```webpack --config=config/webpack-dev.js```
 ```webpack-dev-server --config=config/webpack-dev.js```
+## webpack打包压缩到一行文件（注意：mode必须为prodution）
+```
+webpack --config=config/webpack.dev.js --optimize-minimize
+```
